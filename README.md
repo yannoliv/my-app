@@ -1,38 +1,50 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Development
 
-## Creating a project
+localhost:3000
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Enkel development in /src
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## nieuwe image bouwen en oude verwijderen
+docker container rm -f my-app-web-1 && docker image rm my-app-web && docker build --no-cache -t yannickai/my-app:1.0 .  && docker compose up -d
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Docker info
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Image bouwen
 
-## Building
+>docker build --no-cache -t yannickai/my-app:1.0 . 
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
+### Image naar container
 
-You can preview the production build with `npm run preview`.
+> docker images
+> docker compose down && docker compose up -d
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### delete
+> docker images
+> docker image rm ...
+
+
+
+https://plainenglish.io/blog/step-by-step-guide-to-dockerize-react-app-created-using-vite
+
+## CSS
+
+### Tailwind
+
+https://tailwindcss.com/docs/guides/sveltekit
+
+### Flowbite
+
+https://flowbite-svelte.com
+
+
+https://gist.github.com/coehne/caf0b3934455d842dfbfe1f4c1544348
+
+https://stackoverflow.com/questions/66812479/nextjs-how-to-correctly-add-firebase-analytics-to-nextjs-app
+
+
+https://stackoverflow.com/questions/74444562/how-to-host-a-sveltekit-app-with-firebase-hosting

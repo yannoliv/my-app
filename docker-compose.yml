@@ -4,9 +4,3 @@ services:
     build: .  # build from Dockerfile in current directory
     ports:
       - "3000:5173"
-    volumes:
-      - type: bind
-        source: ./src
-        target: /app/src
-volumes:
-  web:
