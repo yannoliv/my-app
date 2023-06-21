@@ -2,7 +2,7 @@
     import { Button } from "flowbite-svelte";
     import { HeroHeader, Section } from "flowbite-svelte-blocks";
     import { ArrowRight } from "svelte-heros";
-    import Threedobject from "./threedobject.svelte";
+    import HeroSide from "./hero_side.svelte";
 </script>
 
 <Section name="heroVisual">
@@ -28,6 +28,6 @@
         </HeroHeader>
     </div>
     <div class="mt-10 lg:mt-0 lg:col-span-5 flex">
-        <Threedobject />
+        <HeroSide />
     </div>
 </Section>

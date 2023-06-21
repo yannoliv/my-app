@@ -6,6 +6,7 @@
         DarkMode,
     } from "flowbite-svelte";
     import Footer from "./footer.svelte";   
+    import Banner from "./banner.svelte";
 </script>
 
 
@@ -20,7 +21,11 @@
             </Navbar>
         </header>
 
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="mx-5">
+            <Banner/>
+        </div>
+        
+        <div class="p-8 mx-auto max-w-screen-xl sm:py-16 lg:px-6 flex space-y-[1em] flex-col">
             <slot />
         </div>
         <Footer/>
