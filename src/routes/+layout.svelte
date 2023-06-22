@@ -21,7 +21,7 @@
             </Navbar>
         </header>
 
-        <div class="mx-5">
+        <div class="mx-5 max-w-screen-xl mx-auto">
             <Banner/>
         </div>
         

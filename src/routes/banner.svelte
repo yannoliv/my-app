@@ -11,7 +11,7 @@
             Enthousiast software developer Yannick Olivier welcomes intriguing career prospects.
             <a
                 class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                href="/">Reach out</a
+                href="/#contact">Reach out</a
             >
             to explore potential collaborations and leverage my skills in full stack development.
         </p>
