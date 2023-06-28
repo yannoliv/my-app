@@ -2,7 +2,7 @@
   import { Section, Contact } from "flowbite-svelte-blocks";
   import { Label, Input, Textarea, Button } from "flowbite-svelte";
 
-  let header = "Let's connect 🤝";
+  let header = "Let's talk 🤝";
   let paragraph =
     "I'd love to hear from you and discuss how we can collaborate.";
 

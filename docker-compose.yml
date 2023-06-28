@@ -4,3 +4,5 @@ services:
     build: .  # build from Dockerfile in current directory
     ports:
       - "3000:5173"
+    volumes:
+      - /home/yannickai/github/my-app:/app

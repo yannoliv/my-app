@@ -1,5 +1,5 @@
 <script>
-    import { Button } from "flowbite-svelte";
+    import { GradientButton } from "flowbite-svelte";
     import { HeroHeader, Section } from "flowbite-svelte-blocks";
     import { ArrowRight } from "svelte-heros";
     import HeroSide from "./hero_side.svelte";
@@ -16,14 +16,14 @@
                 Enthousiastic software engineer with a passion for web
                 development.
             </svelte:fragment>
-            <a href="/"
-                ><Button
+            <a href="/#contact"
+                ><GradientButton
                     size="xl"
-                    color="primary"
+                    color="cyanToBlue"
                     class="inline-flex items-center justify-center mr-3"
-                    >Contact me
+                    >Let's talk
                     <ArrowRight size="18" class="ml-2 -mr-1" />
-                </Button>
+                </GradientButton>
             </a>
         </HeroHeader>
     </div>
