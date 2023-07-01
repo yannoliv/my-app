@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Section, Contact } from "flowbite-svelte-blocks";
   import { Label, Input, Textarea, Button, Modal } from "flowbite-svelte";
-  import { addDoc } from "Firebase/firestore/lite";
+  import { addDoc, serverTimestamp } from "Firebase/firestore/lite";
   import { contactCollection } from "../+server";
 
   let header = "Let's talk 🤝";
@@ -22,7 +22,7 @@
       await addDoc(contactCollection, {
         email: emailAddress,
         comment: comment,
-        // timestamp: serverTimestamp(),
+        timestamp: serverTimestamp(),
       });
       showModal = true;
     } catch (error) {
