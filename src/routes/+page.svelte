@@ -14,13 +14,11 @@
 <!-- Voorbeeld  https://mattfarley.ca/ -->
 <Hero />
 
-<!-- About me -->
-<!-- Get to know me + my skills. skills gaan van volle kleur naar dokerder naargelang hoe goed ik t kan? -->
 <About/>
 
 <Portfolio />
 
-<Testimonials />
+<!-- <Testimonials /> -->
 
 <Faq />
 

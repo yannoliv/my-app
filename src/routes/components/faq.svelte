@@ -35,7 +35,7 @@ let faqs = [
 </script>
 
 
-<Section>
+<Section sectionClass="bg-white dark:bg-gray-900 mx-auto container">
     <h2
         class="mb-8 text-4xl font-extrabold text-gray-900 dark:text-white"
     >

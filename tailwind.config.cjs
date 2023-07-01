@@ -8,7 +8,7 @@ export default {
     './node_modules/flowbite-svelte-blocks/**/*.{html,js,svelte,ts}'
   ],
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
   ],
   darkMode: 'class',
   theme: {

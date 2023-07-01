@@ -33,6 +33,7 @@
     <NavUl {hidden} class="order-1">
       <NavLi href="/" active={"/" === activeUrl}>Home</NavLi>
       <NavLi href="/blog" active={"/blog" == activeUrl}>Blog</NavLi>
+      <NavLi href="/projects" active={"/projects" == activeUrl}>Projects</NavLi>
     </NavUl>
   </Navbar>
 </header>

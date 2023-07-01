@@ -8,7 +8,7 @@
     } from 'flowbite-svelte-blocks';
   </script>
 
-<Section>
+<Section sectionClass="bg-white dark:bg-gray-900 mx-auto container">
     <div class="space-y-10 space-x-0 sm:inline-flex sm:space-x-5 sm:space-y-0">
   
     <Testimonial icon="{Quotes}">
