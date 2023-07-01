@@ -1,24 +1,29 @@
 <script>
-    import Banner from './banner.svelte';
-    import Contactme from './contactme.svelte';
-  import Faq from './faq.svelte';
-    import Feature from './feature.svelte';
-  import Hero from './hero.svelte';
-  import Newsletter from './newsletter.svelte';
-    import Portfolio from './portfolio.svelte';
-    import Testimonials from './testimonials.svelte';
-
-
+  import Banner from "./components/banner.svelte";
+  import Contactme from "./components/contactme.svelte";
+  import Faq from "./components/faq.svelte";
+  import Hero from "./components/hero.svelte";
+  import Portfolio from "./components/portfolio.svelte";
+  import Testimonials from "./components/testimonials.svelte";
+  import About from "./components/about.svelte"
 </script>
 
-<Hero/>
+<!-- <Banner /> -->
 
-<Portfolio/>
+<!-- Hero moet echt veel beter en simpeler. mss gewoon een icoontje -->
+<!-- Voorbeeld  https://mattfarley.ca/ -->
+<Hero />
 
-<Testimonials/>
+<!-- About me -->
+<!-- Get to know me + my skills. skills gaan van volle kleur naar dokerder naargelang hoe goed ik t kan? -->
+<About/>
+
+<Portfolio />
+
+<Testimonials />
 
 <Faq />
 
-<Contactme/>
+<Contactme />
 
 <!-- Read more ... -->
