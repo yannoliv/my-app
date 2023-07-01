@@ -7,7 +7,7 @@
 </script>
 
 <Section sectionClass="bg-white dark:bg-gray-900 mx-auto container">
-  <div class="w-96 mx-auto mb-16">
+  <div class="w-52 md:w-96 mx-auto mb-16">
     <UndrawCodeThinking />
   </div>
   <HeroHeader
